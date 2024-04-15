@@ -1,0 +1,115 @@
+/*styling for the box-sizing goes here*/
+*{
+    box-sizing: border-box;
+}
+
+/*styling for the page goes here*/
+body {
+    line-height: normal;
+    font-family: Arial, serif;
+}
+
+/*sets the styling for h1 here*/
+h1 {
+    text-align: center;
+    font-family: Arial, Serif;
+    font-size: 3em;
+}
+
+/*sets the styling for topNav here*/
+#topNav {
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    background-color: white;
+    letter-spacing: .5px;
+    font-variant: titling-caps;
+}
+
+/*sets the styling for topNav li here*/
+#topNav li {
+    display: inline-block;
+    list-style-type: space-evenly;
+    margin: 4px;
+}
+
+/*sets the styling for logo image here*/
+.logo img {
+    width:150px;
+    height: 100px;
+}
+
+/*sets styling for topNav a here*/
+#topNav a {
+    text-decoration: none;
+    padding: 25px 30px;
+}
+
+/*sets styling for topNav hovering here*/
+#topNav a:hover {
+    color: white;
+    border: solid 5px white;
+    background-color: blue;
+}
+
+/*styling for the quiz-container goes here*/
+.quiz-container{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    overflow: hidden;
+}
+
+/*styling for the quiz-header goes here*/
+.quiz-header{
+    padding: 4rem;
+}
+
+/*styling for the unordered list goes here*/
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+/*styling for the unordered list items goes here*/
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+/*styling for the unordered list items label goes here*/
+ul li label{
+    cursor: pointer;
+}
+
+/*styling for the button goes here*/
+button{
+    background-color: #03cae4;
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+}
+
+/*styling for the button hover goes here*/
+button:hover{
+    background-color: #04adc4;
+}
+
+/*styling for the button focus goes here*/
+button:focus{
+    outline: none;
+    background-color: #44b927;
+}
+
+/*styling for the footer goes here*/
+.footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

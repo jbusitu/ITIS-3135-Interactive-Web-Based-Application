@@ -1,0 +1,117 @@
+/*styling for the login page goes here*/
+body {
+    line-height: normal;
+    font-family: Arial, serif;
+}
+
+/*sets the styling for h1 here*/
+h1 {
+    text-indent: 130px;
+    font-family: Arial, Serif;
+    font-size: 3em;
+}
+
+/*sets the styling for topNav here*/
+#topNav {
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    background-color: white;
+    letter-spacing: .5px;
+    font-variant: titling-caps;
+}
+
+/*sets the styling for topNav li here*/
+#topNav li {
+    display: inline-block;
+    list-style-type: space-evenly;
+    margin: 4px;
+}
+
+/*sets the styling for logo image here*/
+.logo img {
+    width:150px;
+    height: 100px;
+}
+
+/*sets styling for topNav a here*/
+#topNav a {
+    text-decoration: none;
+    padding: 25px 30px;
+}
+
+/*sets styling for topNav hovering here*/
+#topNav a:hover {
+    color: white;
+    border: solid 5px white;
+    background-color: blue;
+}
+
+/*sets styling for form here*/
+form.log {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    color:powderblue;
+    background-color: Blue;
+    padding: 80px 20px;
+    border-radius: 5px;
+}
+
+form.self {
+    padding: 20px;
+    color: black;
+}
+
+/*sets styling for input here*/
+input{
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+input[type="submit"]{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    width: 8em;
+    height: 2em;
+}
+
+.just {
+    font-family: Arial, Serif;
+    margin: 0 auto;
+    padding: 20px;
+    width: 550px;
+    border: 3px solid blue;
+}
+
+/*sets the styling for h2 here*/
+h2 {
+    font-family: Arial, Serif;
+    font-size: 3em;
+}
+
+p {
+    font-family: Arial, Serif;
+}
+
+h3, #image_list, #image {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 120%;
+    padding: .5em 0 .25em;
+}
+
+#image_list li {
+    padding-right: 10px;
+    display: inline;
+}
+
+/*sets styling for the footer here*/
+.footer {
+    text-align: center;
+    padding-top: 70px;
+}

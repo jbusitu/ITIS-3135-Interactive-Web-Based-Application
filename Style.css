@@ -1,0 +1,140 @@
+/*styling for the home page goes here*/
+body {
+    line-height: normal;
+    font-family: Arial, serif;
+}
+
+/*sets the styling for topNav here*/
+#topNav {
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    background-color: white;
+    letter-spacing: .5px;
+    font-variant: titling-caps;
+}
+
+/*sets the styling for topNav li here*/
+#topNav li {
+    display: inline-block;
+    list-style-type: space-evenly;
+    margin: 4px;
+}
+
+/*sets the styling for logo image here*/
+.logo img {
+    width:150px;
+    height: 100px;
+}
+
+/*sets styling for topNav a here*/
+#topNav a {
+    text-decoration: none;
+    padding: 25px 30px;
+}
+
+/*sets styling for topNav hovering here*/
+#topNav a:hover {
+    color: white;
+    border: solid 5px white;
+    background-color: blue;
+}
+
+h1 {
+    text-indent: 130px;
+    font-family: Arial, Serif;
+    font-size: 3em;
+}
+
+.indent{
+    text-indent: 130px;
+    font-family: Arial, Serif;
+}
+
+/* the styles for the main content */
+main {
+    clear: left;
+    padding: 0 20px 20px;
+    width: 625px;
+    float: right;
+}
+main h1 {
+    color: blue;
+    font-size: 150%;
+    padding: .5em 0 .25em;
+}
+main h2 {
+    font-size: 120%;
+    padding-bottom: .25em;
+}
+
+main p {
+    padding-bottom: .5em;
+}
+main blockquote {
+    padding: 0 2em;
+    font-style: italic;
+}
+main ul {
+    padding: 0 0 1.5em 1.25em;
+}
+main li {
+    padding-bottom: .35em;
+}
+
+main img {
+    float: right;
+    margin: 1em 0 1em 1em;
+    border: 1px solid black;
+}
+aside {
+    width: 415px;
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+aside h1 {
+    color: blue;
+    font-size: 150%;
+    padding: .5em 0 .25em;
+}
+aside h2 {
+    font-size: 120%;
+    padding-bottom: .25em;
+}
+aside img {
+    padding-bottom: 1em;
+}
+/* the styles for the navigation list */
+#nav_list ul {
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 1.5em; }
+#nav_list li {
+    width: 200px;
+    margin-bottom: .5em;
+    border: 2px double black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0 0 blue;
+    background-image: url("images/right.jpg");
+    background-repeat: no-repeat;
+    background-position: 95% center;
+
+}
+#nav_list li a {
+    display: block;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: .5em 0 .5em 1em;
+}
+
+/*sets styling for the footer here*/
+footer {
+    border-top: 3px solid blue;
+    padding: 1em 0;
+    clear: both;
+}
+footer p {
+    text-align: center;
+}

@@ -1,0 +1,110 @@
+/*styling for the page goes here*/
+body {
+    line-height: normal;
+    font-family: "Arial", serif;
+}
+
+/*sets the styling for topNav here*/
+#topNav {
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    background-color: white; /**/
+    letter-spacing: .5px;
+    font-variant: titling-caps;
+}
+
+/*sets the styling for topNav li here*/
+#topNav li {
+    display: inline-block;
+    list-style-type: space-evenly;
+    margin: 4px;
+}
+
+/*sets the styling for logo image here*/
+.logo img {
+    width:150px;
+    height: 100px;
+}
+
+/*sets styling for topNav a here*/
+#topNav a {
+    text-decoration: none;
+    padding: 25px 30px;
+}
+
+/*sets styling for topNav hovering here*/
+#topNav a:hover {
+    color: white;
+    border: solid 5px white;
+    background-color: blue; /**/
+}
+
+/*sets the styling for h1 here*/
+h1 {
+    text-align: center;
+    font-family: "Arial", Serif;
+    font-size: 3em;
+}
+
+/*sets the styling for h2 here*/
+h2 {
+    text-align: center;
+    font-family: "Arial", Serif;
+    font-size: medium;
+    color: black;
+}
+
+/*sets the styling for h3 here*/
+h3{
+    font-family: Arial, Serif;
+    color: white;
+    font-weight: normal;
+    font-size: large;
+    font-stretch: ultra-expanded;
+}
+
+.overview1 {
+    width: 100px;
+}
+
+.overview2 {
+    width: 100px;
+}
+
+#content {
+    height: 500px;
+}
+
+#title {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*sets styling for footer here*/
+.footer {
+    text-align: center;
+    padding-top: 80px;
+}
+
+#accordion {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+}
+
+#accordion .ui-accordion-header {
+    color:white;
+    font-family: Arial, serif;
+    border-color: dimgray;
+    background-color: blue;
+}
+
+#inside {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+}

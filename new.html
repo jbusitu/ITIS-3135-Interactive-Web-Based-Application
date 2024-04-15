@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup</title>
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="new.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="logo.png" alt="logo area">
+    </div>
+    <!-- Disabled JavaScript here -->
+    <noscript>
+        <h1>To disabled JavaScript</h1>
+    </noscript>
+    <br><br>
+</header>
+<main>
+    <!-- the navigation bar here -->
+    <nav class="topNav">
+        <ul id="topNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="service.html">Service</a></li>
+        </ul>
+        <br>
+        <br>
+    </nav>
+
+    <!-- add the back button here -->
+    <form class="back">
+        <input type="button" value="Back" onclick="history.back()">
+    </form>
+    <br>
+
+    <!-- add the signup box here -->
+    <form action="#" class="style">
+        <div class="container">
+            <h1>Join Scorecode</h1>
+        </div>
+        <label for="Username"><b>Create a username:</b></label>
+        <input type="text" placeholder="Enter username" name="name" id="Username" required>
+        <br>
+        <br>
+        <label for="psw"><b>Create a password:</b></label>
+        <input type="password" placeholder="Enter password" name="psw" id="psw" required>
+        <br>
+        <br>
+        <label for="psw-repeat"><b>Repeat Password:</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+        <br>
+        <br>
+        <p>By creating an acount you agree to Scorecode <a href="#" style="color:red">Terms & Privacy</a>.</p>
+        <br>
+        <button type="button">Cancel</button>
+        <button type="submit">Sign Up</button>
+    </form>
+</main>
+
+<!-- footer includes the copyright and the validation link-->
+<footer class="footer">
+    &copy; <b>2022 Busitu</b>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+</footer>
+</body>
+</html>

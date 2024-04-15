@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html Books</title>
+    <!-- External Stylesheet -->
+    <link href="start.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="start.js"></script>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="logo.png" alt="logo area">
+    </div>
+    <!-- Disabled JavaScript here-->
+    <noscript>
+        <h1>To disabled JavaScript</h1>
+    </noscript>
+</header>
+<main>
+    <!-- the navigation bar here -->
+    <nav class="topNav">
+        <ul id="topNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutUs.html">About</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="service.html">Service</a></li>
+        </ul>
+        <br>
+        <br>
+    </nav>
+
+    <!-- the Corresponding services-->
+    <h1>HTML Books</h1>
+    <br>
+    <br>
+    <h2>Here you will select any book of your interest.</h2>
+    <br>
+    <p>Select to add the book in your cart. Enjoy learning about html.</p>
+    <br>
+    <br>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="read.jpeg" alt="read" style="width: 100%">
+                <div class="container">
+                    <h3>First Book</h3>
+                    <p class="price">$13.49</p>
+                    <p>Quick, Comprehensive, Indispensable Fifth Edition.</p>
+                    <button class="Add To Cart" type="button" onclick="alert('Thank you for choosing Scorecode. Enjoy your reading.');">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="study.jpeg" alt="study" style="width: 100%">
+                <div class="container">
+                    <h3>Second Book</h3>
+                    <p class="price">$15.24</p>
+                    <p>Suitable for class, group and individual teaching.</p>
+                    <button class="Add To Cart" type="button" onclick="alert('Thank you for choosing Scorecode. Enjoy your reading.');">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="learn.jpeg" alt="learn" style="width: 100%">
+                <div class="container">
+                    <h3>Third Book</h3>
+                    <p class="price">$20.66</p>
+                    <p>Load important concept into your brain.</p>
+                    <button class="Add To Cart" type="button" onclick="alert('Thank you for choosing Scorecode. Enjoy your reading.');">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="tuition.jpeg" alt="tuition" style="width: 100%">
+                <div class="container">
+                    <h3>Forth Book</h3>
+                    <p class="price">$120.99</p>
+                    <p>Introduction to different programming language.</p>
+                    <button class="Add To Cart" type="button" onclick="alert('Thank you for choosing Scorecode. Enjoy your reading.');">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- a link to the second service area -->
+    <form action="play.html">
+        <input type="submit" value="Play">
+    </form>
+    <br>
+    <br>
+
+    <div id="bottom">
+        <h2>HTML Books Contents</h2>
+
+            <div id="group"></div>
+    </div>
+
+</main>
+
+<!-- footer includes the copyright and the validation link-->
+<footer class="footer">
+    &copy; <b>2022 Busitu</b>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="login.js"></script>
+</head>
+<body>
+<header>
+  <div class="logo">
+    <img src="logo.png" alt="logo area">
+  </div>
+  <!-- Disabled JavaScript here-->
+  <noscript>
+    <h1>To disabled JavaScript</h1>
+  </noscript>
+  <br><br>
+</header>
+<main>
+    <!-- the navigation bar here -->
+    <nav class="topNav">
+        <ul id="topNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutUs.html">About</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="service.html">Service</a></li>
+        </ul>
+        <br>
+        <br>
+    </nav>
+
+    <!-- Corresponding login title -->
+    <h1>Log in</h1>
+
+    <!-- a login box to help the user get access -->
+    <form action="login.html" method="post" class="log">
+        <label for="Username">Username:</label>
+        <input type="text" name="name" id="Username" value="" aria-required="true" autocomplete="name" required>
+        <br>
+        <br>
+        <label for="Password">Password:</label>
+        <input type="Password" id="Password" aria-required="true" required>
+        <br>
+        <br>
+        <button type="submit">Login</button>
+    </form>
+    <br>
+
+    <br>
+        <!-- a sign up link -->
+        <form action="new.html" class="self">
+            <input type="submit" value="Sign Up">
+        </form>
+    <br>
+    <br>
+
+    <!-- An image example of html -->
+    <div class="just">
+        <h2>HTML Illustration</h2>
+        <p>Different example to illustrate essential tools and procedures needed to use html</p>
+        <ul id="image_list">
+            <li><a href="Login_images/l1.jpg" title="You need a Laptop">
+                <img src="Login_swaps/s1.jpg" alt=""></a></li>
+            <li><a href="Login_images/l2.png" title="Download a Text Editor">
+                <img src="Login_swaps/s2.png" alt=""></a></li>
+            <li><a href="Login_images/l3.jpg" title="You need a browser">
+                <img src="Login_swaps/s3.jpg" alt=""></a></li>
+            <li><a href="Login_images/l4.png" title="Write code">
+                <img src="Login_swaps/s4.png" alt=""></a></li>
+            <li><a href="Login_images/l5.png" title="Save all the files">
+                <img src="Login_swaps/s5.png" alt=""></a></li>
+            <li><a href="Login_images/l6.png" title="View the output">
+                <img src="Login_swaps/s6.png" alt=""></a></li>
+        </ul>
+        <h3 id="caption">You need a Laptop</h3>
+        <p><img src="Login_images/l1.jpg" alt="" id="image"></p>
+
+    </div>
+</main>
+
+<!-- footer includes the copyright and the validation link-->
+<footer class="footer">
+    &copy; <b>2022 Busitu</b>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,157 @@
+/*styling for the page goes here*/
+html {
+    background-color: #fff;
+}
+
+body {
+    line-height: normal;
+    font-family: Arial, serif;
+}
+
+/*sets the styling for h1 here*/
+h1 {
+    text-align: center;
+    font-family: Arial, Serif;
+    font-size: 3em;
+}
+
+/*sets the styling for h2 here*/
+h2 {
+    text-align: center;
+}
+
+/*sets the styling for topNav here*/
+#topNav {
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    background-color: white;
+    letter-spacing: .5px;
+    font-variant: titling-caps;
+}
+
+/*sets the styling for topNav li here*/
+#topNav li {
+    display: inline-block;
+    list-style-type: space-evenly;
+    margin: 4px;
+}
+
+/*sets the styling for logo image here*/
+.logo img {
+    width:150px;
+    height: 100px;
+}
+
+/*sets styling for topNav a here*/
+#topNav a {
+    text-decoration: none;
+    padding: 25px 30px;
+}
+
+/*sets styling for topNav hovering here*/
+#topNav a:hover {
+    color: white;
+    border: solid 5px white;
+    background-color: blue;
+}
+
+/*sets styling for container, section, row, col, and images here*/
+.container {
+    padding: 20px 16px;
+}
+
+.row {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.col {
+    flex: 33.33%;
+    max-width: 50%;
+    padding: 5px;
+}
+
+img {
+    float: left;
+    border-radius: 5%;
+    display: block;
+    height: 500px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bottom h2 {
+    font-size: 14px;
+    font-weight: bold;
+    background: blue;
+    padding: 3px 0 3px 20px;
+    border: solid #929ca4 1px;
+    color: white;
+    text-align:center;
+
+}
+
+/*styling for the footer goes here padding: 3px 0 3px 20px;*/
+#bottom {
+    width: 600px;
+    float: left;
+    background-color: #dfe3e6;
+    padding-right: 15px;
+    line-height: normal;
+    font-family: Arial, serif;
+    line-height: 25px;
+    font-size: 0.8em;
+    margin: 15px auto 0 auto;
+}
+
+h3 {
+    margin: 1em 0 0;
+    color: #000080;
+}
+
+/*styling for the footer goes here*/
+.footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    height: 35px;
+    clear: both;
+}
+
+/*styling for the main goes here*/
+main {
+    padding: 4em 2em;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+/*clear floats after the container*/
+.row:after {
+    align-content: center;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*styling for the card goes here*/
+.card {
+    box-shadow: 0 4px 8px 0 blue;
+}
+
+.container::after, .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*styling for the button hover goes here*/
+button:hover {
+    background-color: blue;
+}

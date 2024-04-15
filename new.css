@@ -1,0 +1,74 @@
+/*styling for the page goes here*/
+body {
+    line-height: normal;
+    font-family: Arial, serif;
+}
+
+/*styling for h2 goes here*/
+h1 {
+    text-indent: 130px;
+}
+
+/*sets the styling for p here*/
+.indent{
+    text-indent: 130px;
+    font-family: Arial, Serif;
+}
+
+/*sets the styling for topNav here*/
+#topNav {
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    background-color: white;
+    letter-spacing: .5px;
+    font-variant: titling-caps;
+}
+
+/*sets the styling for topNav li here*/
+#topNav li {
+    display: inline-block;
+    list-style-type: space-evenly;
+    margin: 4px;
+}
+
+/*styling for the logo image goes here*/
+.logo img {
+    width:150px;
+    height: 100px;
+}
+
+/*sets styling for topNav a here*/
+#topNav a {
+    text-decoration: none;
+    padding: 25px 30px;
+}
+
+/*sets styling for topNav hovering here*/
+#topNav a:hover {
+    color: white;
+    border: solid 5px white;
+    background-color: blue;
+}
+
+/*sets styling for the back button here*/
+form.back {
+    padding: 40px 0px;
+}
+
+/*sets styling for form box here*/
+.style {
+    border:5px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    color:white;
+    background-color: Blue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*sets styling for the footer here*/
+.footer {
+    text-align: center;
+}
